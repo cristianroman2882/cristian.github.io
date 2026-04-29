@@ -1,1 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
 
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 15px;
+}
+
+.book,
+.author {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.book img {
+  width: 150px;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 250px;
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1f6690;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
