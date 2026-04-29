@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cris's Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
+  <body>
+    <header>
+      <h1>Cris's Library</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="authors.html">Authors</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Welcome to Cris's Library</h2>
+
+      <p>
+        This library website shows popular books, information about authors, and
+        a book request form for visitors.
+      </p>
+
+      <h2>Request a Book</h2>
+
+      <form>
+        <label>First Name:</label><br />
+        <input type="text" required /><br /><br />
+
+        <label>Last Name:</label><br />
+        <input type="text" required /><br /><br />
+
+        <label>Email:</label><br />
+        <input type="email" required /><br /><br />
+
+        <label>Book Request:</label><br />
+        <input type="text" required /><br /><br />
+
+        <button type="submit">Submit Request</button>
+      </form>
+
+      <h2>Library Tour</h2>
+
+      <iframe
+        width="400"
+        height="250"
+        src="https://www.youtube.com/embed/uMMCvVSEpr4"
+        allowfullscreen>
+      </iframe>
+    </main>
+
+    <footer>
+      <p>© 2026 Cris's Library | Contact: info@library.com</p>
+    </footer>
+
+    <script>
+      document.querySelector("form").addEventListener("submit", function (e) {
+        e.preventDefault();
+        alert("Request submitted!");
+      });
+    </script>
+  </body>
+</html>
